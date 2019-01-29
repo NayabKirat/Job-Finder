@@ -1,0 +1,79 @@
+
+
+.news{
+    padding: 80px 0;
+    width: 100%;
+    height: 85vh;
+    color: black;
+    .news-container{
+
+        color: black;
+        width: 77%;
+        height: 90vh;
+        padding: 20px 0;
+        margin: 0 auto;
+        h1,p{
+            color: black;
+            text-align: center;
+            padding: 10px;
+            span{
+                color: $color;
+            }
+        }
+        ul{
+            
+            li{
+                list-style: none;
+                height: 390px;
+                width:310px;
+                margin: 12px;
+                margin-top: 70px;
+                float: left;
+                position: relative;
+                border: 1px solid gray;
+                padding: 20px;
+                &:hover{
+                border: 1px solid $bg2;
+                }
+                .img{
+                    position: relative;
+                    height: 57%;
+                    width: 100%;
+                    background: $bg2;
+                
+                img{
+                    position: relative;
+                    height: 100%;
+                    width: 100%;
+                    clip-path: polygon(80% 1%, 100% 21%, 100% 100%, 21% 100%, 0 77%, 0 0);
+                    
+                }
+                .b2{
+                    padding: 6px 20px;
+                    border: none;
+                    position: absolute;
+                    top:170px;
+                    left:200px;
+                    background: $color;
+                }
+            }
+                h2,p{
+                    position: relative;
+                    color: black;
+                    margin-top:10px;
+                }p{
+                    margin-left: -20px;
+                    width: 290px;
+                    span{
+                        color: $bg2;
+                    }
+                }
+                .b1{
+                    padding: 6px 20px;
+                    border: none;
+                    background: $bg2;
+                }
+            }
+        }
+    }
+}
